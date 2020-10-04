@@ -18,14 +18,14 @@ int main()
     cout<<"\n\tEnter the k : ";
     cin>>k;
     cout<<"The numbering start form where : ";
-    cout<<"\n\t 0.Zero";
+    cout<<"\n\t 0.Zero\n";
     cout<<"\n\t 1.One\n";
     cin>>choice;
     switch(choice)
     {
-        case 0: cout<<"\n\tThe person remaining is : "<<jos(n,k);
+        case 0: cout<<"\n\tThe person remaining is : "<<jos(n,k)<<"\n";
                 break;
-        case 1: cout<<"\n\tThe person remaining is : "<<jos(n,k)+1;
+        case 1: cout<<"\n\tThe person remaining is : "<<jos(n,k)+1<<"\n";
                 break;
         default: cout<<"\n\tEnter valid choice : ";
                  break;
